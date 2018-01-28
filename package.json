@@ -24,6 +24,7 @@
     "passport-local": "^1.0.0",
     "request": "^2.81.0",
     "debug": "~2.6.0",
+    "serve-favicon": "~2.4.5",
     "tape": "^4.7.0"
   },
   "author": "Kathryn Hodge",
