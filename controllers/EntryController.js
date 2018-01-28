@@ -1,5 +1,5 @@
 var mongoose = require("mongoose");
-var Entry = require("../models/Entry");
+var Entry = require("../models/entry");
 var entryController = {};
 
 
@@ -31,7 +31,7 @@ entryController.list = function(req, res) {
       console.log("Error:", err);
     }
     else {
-      res.render("../views/Entry/blank", {entry: entry});
+      res.render("../views/entry/blank", {entry: entry});
     }
   });
 };
@@ -43,7 +43,7 @@ entryController.show = function(req, res) {
       console.log("Error:", err);
     }
     else {
-      res.render("../views/Entry/show", {entry: entry});
+      res.render("../views/entry/show", {entry: entry});
     }
   });
 };
@@ -71,7 +71,7 @@ entryController.blank = function(req, res) {
 
 // Create new employee
 entryController.create = function(req, res) {
-  res.render("../views/Entry/create");
+  res.render("../views/entry/create");
 };
 
 // Save new employee
@@ -96,7 +96,7 @@ entryController.edit = function(req, res) {
       console.log("Error:", err);
     }
     else {
-      res.render("../views/Entry/edit", {entry: entry});
+      res.render("../views/entry/edit", {entry: entry});
     }
   });
 };
