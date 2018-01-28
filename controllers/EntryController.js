@@ -1,5 +1,5 @@
 var mongoose = require("mongoose");
-var Entry = require("../models/entry");
+var Entry = require("../models/Entry");
 var entryController = {};
 
 
