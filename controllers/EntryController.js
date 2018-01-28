@@ -57,7 +57,7 @@ entryController.blank = function(req, res) {
       console.log("Error:", err);
     }
     else {
-      res.render("Entry/blank", {entry: entry});
+      res.render("../views/index", {entry: entry});
     }
   });
 };
