@@ -5,6 +5,13 @@
 </head>
 
 
+
+
+<!-- > fonts -->
+<link href="font/stylesheet.css" rel="stylesheet">
+<!-- < fonts -->
+
+
 <script src="/jquery-1.11.1.min.js"></script>
 <link rel="stylesheet" type="text/css" href="/bootstrap.min.css" />
 
@@ -12,11 +19,24 @@
 	.translations tr{
 		display: none;
 	}
-	
+	@font-face {
+	    font-family: 'Product Sans';
+	    src: url('fonts/ProductSans-Regular.woff2') format('woff2'),
+	        url('fonts/ProductSans-Regular.woff') format('woff');
+	    font-weight: normal;
+	    font-style: normal;
+	}
+
+	body{
+	  color: #2d2d2d;
+	  background: #f5f5f5;
+	  font-size: 0.95em;
+	}
 	body{
 		  padding: 30px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
   color: #555555;
+	font-family: 'Product Sans';
+
 	}
 	.texttitle {
 		align-content: center;
@@ -197,7 +217,7 @@
 
 <form action="/entry/update/<%= entry._id%>" method="post">
 	<div class="col-sm-6 para" style="width:;">
-		
+
 
 
 		<p>
@@ -212,7 +232,7 @@
 
 	</div>
 	<div class="col-sm-6 para" style="width:;">
-		
+
 
 
 
@@ -220,13 +240,13 @@
 
 <button type="submit" class="btn-info"  style="border-radius: 3px;background: #00AE4D;right: 4%;bottom: 5%;position: fixed;">Update</button>
 
-		
-		
+
+
 <table class="translations">
-	
+
 	<tbody>
-		
-		
+
+
 
 <tr>
 
@@ -270,7 +290,7 @@
 
 	</tbody>
 </table>
-		
+
 
 
 
@@ -306,7 +326,7 @@
 
 
 	</div>
-		       
+
 
 
 

@@ -31,7 +31,15 @@ entryController.list = function(req, res) {
       console.log("Error:", err);
     }
     else {
-      res.render("../views/entry/blank", {entry: entry});
+
+
+      var teststore = db.collection('entry').find({status:"a"});
+
+
+
+      res.render("../views/Entry/blank", {entry: entry});
+      // var teststore = Entry.findOne({_id: "5aa046a04e301d35e9191ec2",name:"e5"})
+      console.log(teststore)
     }
   });
 };
@@ -43,7 +51,7 @@ entryController.show = function(req, res) {
       console.log("Error:", err);
     }
     else {
-      res.render("../views/entry/show", {entry: entry});
+      res.render("../views/Entry/show", {entry: entry});
     }
   });
 };
@@ -57,7 +65,7 @@ entryController.blank = function(req, res) {
       console.log("Error:", err);
     }
     else {
-      res.render("../views/entry/blank", {entry: entry});
+      res.render("../views/Entry/blank", {entry: entry});
     }
   });
 };
@@ -71,7 +79,7 @@ entryController.blank = function(req, res) {
 
 // Create new employee
 entryController.create = function(req, res) {
-  res.render("../views/entry/create");
+  res.render("../views/Entry/create");
 };
 
 // Save new employee
@@ -96,7 +104,7 @@ entryController.edit = function(req, res) {
       console.log("Error:", err);
     }
     else {
-      res.render("../views/entry/edit", {entry: entry});
+      res.render("../views/Entry/edit", {entry: entry});
     }
   });
 };

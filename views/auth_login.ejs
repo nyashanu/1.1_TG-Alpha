@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<!-- > style -->
+<link href="assets/css/bootstrap.min.css" rel="stylesheet">
+
+
+
+<!-- > fonts -->
+<!-- <link href="public/font/stylesheet.css" rel="stylesheet"> -->
+<!-- < fonts -->
+
+<style type="text/css">
+
+@font-face {
+    font-family: 'Product Sans';
+    src: url('fonts/ProductSans-Regular.woff2') format('woff2'),
+        url('fonts/ProductSans-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.row{
+	font-family: 'Product Sans';
+	color: #2d2d2d;
+	background: #f5f5f5;
+	font-size: 0.95em;
+}
+div hr{
+	background: black;
+	color: black;
+}
+#facebook_callback a{
+	padding: 2% 7% 2%  7%;
+		color: white;
+	background:#0066ff;
+	border-radius: 3px;
+	text-decoration: none;
+	margin-left: 5%;
+	font-weight: 800;
+
+}
+#google_callback a{
+	padding: 2%  7% 2%  7%;
+	color:black;
+	background:white;
+	border-radius: 3px;
+	text-decoration: none;
+	margin-left: 3%;
+	font-weight: 400;
+	border: 0.5px solid lightgray;
+
+}
+.form-group{
+	font-style: italic;
+}
+
+</style>
+
+<!-- > style -->
+
+	<title></title>
+</head>
+<body>
+
+<!-- > space_container -->
+<div class="row space_container" style="margin: 0%;width: 100%;min-height:51.85em; background: ;">
+
+<div class="row" style="margin-right: auto;margin-left: auto;width: 25%;min-height:51.85em; background:;">
+
+
+
+<img src="lg_01_color_logo_plchldr.png" width="50%" style="margin-top: 10%">
+
+<br>
+<br>
+<br>
+
+
+<p> Sign in to continue
+
+<!-- to </p>
+<p style="font-weight: 200;font-size: 2em;">Shona first 100  <br> -->
+
+</p>
+
+	<form action="/login" method="post">
+		<div class="form-group">
+			<!-- <label>Email</label> -->
+			<input type="text" class="form-control" name="email" placeholder="Email address">
+		</div>
+		<div class="form-group">
+			<!-- <label>Password</label> -->
+			<input type="password" class="form-control" placeholder="Password *" name="password">
+		</div>
+<div style="width: 100%;">
+
+<input type="radio" name="">
+Stay signed in
+
+<p style="color: #0066ff;display: inline-block;float: right;">Forgot password</p>
+</div>
+
+
+
+<br>
+
+<button type="submit" style="border: none;border-radius: 50px 50px 50px 50px;padding: 1.5% 6% 1.5% 6% ;background: #0066ff;font-weight: 800;font-size: 0.95em;" class="btn btn-warning btn-lg">Sign in</button>
+
+<br><br>
+
+<span style="font-size: ">
+	Not a member yet ? <p style="color: #0066ff;display: inline-block;"> Get Translator`s Guild ID </p>
+	<br>
+	Want usse your social account ?
+	<p style="color: #0066ff;display: inline-block;">Sign in with social account</p>
+	<br>
+
+</span>
+	</form>
+<br>
+<div class="row" style="align-content: center;">
+
+	<div class="col-sm-4">Or sign in with</div>
+	<div class="col-sm-8"> <hr style="color: black;"></div>
+
+
+
+	<span id="facebook_callback"><a  href="">Facebook</a></span>
+	<span id="google_callback"><a  href="">Google</a></span>
+
+</div>
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+</div>
+<!-- < space_container -->
+
+
+</body>
+</html>

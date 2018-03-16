@@ -1,0 +1,117 @@
+
+@font-face {
+    font-family: 'Product Sans';
+    src: url('fonts/ProductSans-Regular.woff2') format('woff2'),
+        url('fonts/ProductSans-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+												/**/
+body{
+	height: 100%;
+	font-family: 'Product Sans';
+	/*background: lightgray;*/
+}
+.page_header{
+	color: #5c6466;
+	font-size: 4.2em;
+}
+.page_text{
+	color: white;
+	font-size: 2em;
+}
+.page_sub_text{
+	color: white;
+	font-size: 1em;
+	opacity: 0.6;
+}
+
+												/*1*/
+
+.page_text_div{
+	background-color: #1fa058;
+	border-radius: 5px;
+	/*height: 100px;*/
+	/*max-width: 400px;*/
+	min-width: 50%;
+	padding: 5%;
+	margin-top: 5%;
+}
+.page_header_div{
+	/*background-color: #303030;*/
+	/*border-radius: 5px;*/
+	/*height: 100px;*/
+	/*max-width: 475px;*/
+	padding: 1%;
+	min-width: 50%;
+	margin-top: 5%;
+}
+/*		.left_right{
+	max-width: 1px;
+	height: 1px;
+	background: blue;
+}*/
+												/*2*/
+.row_container{
+	/*min-width:;*/
+  /*height: 500px;*/
+	width: 100%;
+
+	/*background: gray;*/
+	margin: 0%;
+	padding: 0% 10% 0% 10%;
+
+}
+.content_container{
+	margin: 0% 0% 0% 0%;
+	/*align-items: center;*/
+	min-height: 200px;
+	/*align-content: center;*/
+	width: 100%;
+	/*min-width: 3000px;*/
+}
+												/*3*/
+#footer_links a{
+	padding: 1px 7px 1px 7px;
+	color: black;
+	opacity: 0.5;
+	text-decoration: none;
+	transition: 0.2s;
+	font-size: 0.8em;
+}
+#footer_links_b a{
+	margin: 2% 0px 0px 0px;
+	padding: 15px 7px 1px 7px;
+	color: black;
+	opacity: 0.9;
+	text-decoration: none;
+	transition: 0.2s;
+	font-size: 0.8em;
+}
+#footer_links a:hover{
+	padding: 1px 7px 1px 7px;
+	color: white;
+	background: black;
+	opacity: 0.9;
+	border-radius:3px ;
+	text-decoration: none;
+}
+/*		#footer_f_i_i{
+	float: right;
+	width: 18%;
+	opacity: 0.4;
+	margin: -1.5% 20px 0px 0px;
+}*/
+#footer_links{
+	/*padding: 1% 5% 5% 5%;*/
+	padding: 4% 0px 4% 0px;
+	margin: 0px;
+	width: 100%
+
+}
+hr{
+	/*margin-top: 20%;*/
+	color: black;
+    border-top: 1px solid lightgray;
+    opacity: 0.8
+}
