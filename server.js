@@ -50,8 +50,8 @@ app.use(express.static(__dirname + '/public'));
 ;''
 var configDB = require('./config/database.js');
 // local database
-// MongoClient.connect('mongodb://test:test@ds111138.mlab.com:11138/heroku_l2mzhqqg');
-mongoose.connect('mongodb://<dbuser>:<dbpassword>@ds127928.mlab.com:27928/heroku_0v2hfpdx');
+// MongoClient.connect('mongodb://littlebits:littlebits@ds127928.mlab.com:27928/heroku_0v2hfpdx');
+mongoose.connect('mongodb://littlebits:littlebits@ds127928.mlab.com:27928/heroku_0v2hfpdx');
 // mongoose.connect('mongodb://localhost/loginapp')
 // mongod --dbpath /Users/mac/Desktop/data
 
