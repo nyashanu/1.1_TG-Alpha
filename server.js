@@ -56,7 +56,7 @@ mongoose.connect('mongodb://test:test@ds111138.mlab.com:11138/heroku_l2mzhqqg');
 
 // var mongoclient = new MongoClient(new Server("localhost", 27017), {native_parser: true});
 
-mongoose.connect('mongodb://localhost/loginapp')
+mongoose.connect('mongoose.connect('mongodb://<dbuser>:<dbpassword>@ds127928.mlab.com:27928/heroku_0v2hfpdx')
 require('./config/passport')(passport);
 
 app.use(morgan('dev'));
