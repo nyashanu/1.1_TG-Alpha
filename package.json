@@ -23,7 +23,7 @@
     "express-session": "^1.15.6",
     "encodeurl": "^1.0.2",
     "mongo-morgan": "^2.0.1",
-    "mongoose": "^4.11.13",
+    "mongoose": "^5.7.7",
     "morgan": "^1.7.0",
     "passport": "^0.2.2",
     "passport-facebook": "^2.0.0",
